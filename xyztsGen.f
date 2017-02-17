@@ -192,9 +192,10 @@
         integer k, npr
 
         do k = 1, npr
+           write(13,*) probe(k,1)-0.04, probe(k,2), probe(k,3)
            write(13,*) probe(k,1), probe(k,2), probe(k,3)
-           !write(13,*) probe(k,1)-5e-3, probe(k,2), probe(k,3)
-           !write(13,*) probe(k,1)-5e-3, probe(k,2), probe(k,3)
+           write(13,*) probe(k,1)+0.02, probe(k,2), probe(k,3)
+           write(13,*) probe(k,1)+0.04, probe(k,2), probe(k,3)
         enddo
 
 
