@@ -1,0 +1,17 @@
+The Domain Type: (1 - subchannel; 2 - Pipe)
+1
+The following parameters are for subchannel
+4 		#number of centres, N
+1 		#number of subchannels, S
+yplus, bl_thick, number of boundary layers (nbl)
+3.2546E-06 1.5784E-04 13		
+1.2		#boundary layer growth ratio, ratio
+0.0126		#fuel pitch, pitch
+0.00457		#fuel rod radius, rpin
+0.030		#x position of probe 
+Coordinates of cross plane center (y_c, z_c) x is flow direction: 
+0.0 0.0
+The following parameters are for pipe
+0.1		#pipe radius, rmax
+256		#number of homogeneous points (around the pipe), nhom
+0.0		#x position of probe plane
